@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Lightgallery</title><meta name="description" content="Image preview plugin for VuePress2">
+    <link rel="modulepreload" href="/lightgallery-demo/assets/app.8fb168d4.js"><link rel="modulepreload" href="/lightgallery-demo/assets/404.html.f95c2b94.js"><link rel="modulepreload" href="/lightgallery-demo/assets/404.html.ce538133.js"><link rel="prefetch" href="/lightgallery-demo/assets/index.html.33bbb18c.js"><link rel="prefetch" href="/lightgallery-demo/assets/test.html.b12dfee2.js"><link rel="prefetch" href="/lightgallery-demo/assets/index.html.34b3fd6f.js"><link rel="prefetch" href="/lightgallery-demo/assets/test.html.229a4ef1.js"><link rel="prefetch" href="/lightgallery-demo/assets/404.8aa07b00.js"><link rel="prefetch" href="/lightgallery-demo/assets/Layout.63349d71.js"><link rel="prefetch" href="/lightgallery-demo/assets/lg-pager.es5.c90fda8c.js"><link rel="prefetch" href="/lightgallery-demo/assets/lg-pager.7076ad20.js"><link rel="prefetch" href="/lightgallery-demo/assets/lg-share.es5.d6ddb236.js"><link rel="prefetch" href="/lightgallery-demo/assets/lg-share.0a1a22c3.js"><link rel="prefetch" href="/lightgallery-demo/assets/lg-zoom.es5.68dc1abe.js"><link rel="prefetch" href="/lightgallery-demo/assets/lg-zoom.6bcc8ab4.js">
+    <link rel="stylesheet" href="/lightgallery-demo/assets/style.4be06cf0.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/lightgallery-demo/" class="">Take me home</a></div></main></div><!----><div class="lightgallery-vuepress"></div><!--]--></div>
+    <script type="module" src="/lightgallery-demo/assets/app.8fb168d4.js" defer></script>
+  </body>
+</html>
