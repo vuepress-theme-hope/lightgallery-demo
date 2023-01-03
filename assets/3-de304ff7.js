@@ -1,0 +1,1 @@
+const s="/lightgallery-demo/logo.svg",g="/lightgallery-demo/assets/image/1.jpg",t="/lightgallery-demo/assets/image/2.jpg",a="/lightgallery-demo/assets/image/3.jpg";export{s as _,g as a,t as b,a as c};
