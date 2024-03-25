@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.9" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <title>Lightgallery</title><meta name="description" content="Image preview plugin for VuePress2">
+    <link rel="preload" href="/assets/style-RWI2mr7k.css" as="style"><link rel="stylesheet" href="/assets/style-RWI2mr7k.css">
+    <link rel="modulepreload" href="/assets/app-BDJTccJc.js"><link rel="modulepreload" href="/assets/404.html-7GPh5vjV.js">
+    <link rel="prefetch" href="/assets/index.html-DHGHQ0lY.js" as="script"><link rel="prefetch" href="/assets/test.html-C253_K8f.js" as="script"><link rel="prefetch" href="/assets/lg-pager.es5-CAIA6pFt.js" as="script"><link rel="prefetch" href="/assets/lg-share.es5-CsE6Wu9N.js" as="script"><link rel="prefetch" href="/assets/lg-zoom.es5--4BF16N9.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a class="route-link" href="/">Take me home</a></div></main></div><!--[--><!----><div class="lightgallery-vuepress"></div><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BDJTccJc.js" defer></script>
+  </body>
+</html>
